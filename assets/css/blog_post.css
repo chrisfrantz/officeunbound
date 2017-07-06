@@ -1,0 +1,292 @@
+
+/*
+ * Blog name and description
+ */
+.blog-main {
+  background-color: #f6f6f6;
+}
+.blog-header {
+  padding-bottom: 1.25rem;
+  margin-bottom: 2rem;
+  border-bottom: .05rem solid #eee;
+}
+
+.jumbotron {
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  color: white;
+}
+.blog-avatar{
+width: 160px;
+height: 160px;
+box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.92);
+border: 7px solid rgba(255, 255, 255, 0);
+}
+
+.blog-avatar > img{
+  width: 160px;
+}
+
+.rounded {
+  max-width: 97%;
+}
+
+.thumbnail {
+  margin: 10px;
+}
+
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.text-muted {
+  color: white !important;
+}
+
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+.card-item-blog-header {
+    padding: 30px 0px 0px 0;
+    border-radius: 25px;
+    transition: all.6s ease;
+    -webkit-backface-visibility: hidden;
+    width: 100%;
+     box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+      -webkit-backface-visibility: hidden;
+}
+
+.fa-briefcase, .fa-calendar, .fa-globe {
+  color: white;
+}
+/*
+ * Main column and sidebar layout
+ */
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 1rem;
+  /*margin: 0 -1rem 1rem;*/
+}
+.sidebar-module-inset {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: .25rem;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 4rem;
+  max-width: 930px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 72px;
+  font-size: 18px;
+  line-height: 1.6;
+  box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+  border-radius: 20px;
+  background-color: white;
+  margin-top: -248px;
+  padding-top: 20px;
+}
+.blog-header {
+  padding-top: 120px;
+  padding-bottom: 290px;
+}
+.blog-post > h4{
+  font-size: 22px;
+font-weight: 600;
+line-height: 34px;
+margin: 30px 0 10px 0;
+
+}
+
+.thumbnail {
+    position: relative;
+}
+.caption {
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.blog-post-details {
+    max-width: 440px;
+    margin: 0 auto;
+
+}
+
+.job {
+   margin: 0 auto;
+}
+
+.blog-post-detail-block {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.blog-post-details-title{
+  padding-left: 7px;
+  padding-right: 16px;
+  padding-top: 1px;
+}
+
+.blog-post-details .fa{
+  margin-top: 7px;
+}
+
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+
+.img-fluid.rounded {
+    margin-top: 10px;
+}
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  margin-bottom: 4rem;
+  max-width: 1100px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 40px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.container.newsletter-blog-footer {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 1.6;
+    box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+    border-radius: 20px;
+    background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
+}
+
+#newsletter-card {
+  width: initial;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+
+}
+/* ------------------- Carousel Styling ------------------- */
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+.carousel-item img{
+  width: 100%;
+}
+
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.3);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  color: #fff !important;
+}
+.carousel-caption a{
+  color: #fff !important;
+
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+
+/*-------Comments-------*/
+
+#disqus_thread {
+    max-width: 930px;
+    margin: 0 auto;
+    padding-top: 31px;
+}
+
+/*-------Breakpoints-------*/
+
+/*iphone 6s and smaller*/
+@media only screen and (max-width: 414px) {
+
+.blog-post-details-title {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1px;
+    padding-bottom: 9px;
+    width: 100%;
+}
+
+.blog-post-details .fa {
+    margin-top: 7px;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.job {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container.newsletter-blog-footer {
+    padding-bottom: 80px;
+}
+
+.blog-header {
+    padding-top: 30px;
+    padding-bottom: 230px;
+}
+
+}
