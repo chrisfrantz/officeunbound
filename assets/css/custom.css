@@ -46,6 +46,9 @@ font-size: 2rem;
   padding-bottom: 6rem;
   margin-bottom: 0;
   background-color: white;
+  padding-top: 6rem;
+  padding-bottom: 16rem;
+
 }
 
 .jumbotron p:last-child {

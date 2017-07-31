@@ -4,6 +4,9 @@
     $("#priscilla-kim").load("partials/priscilla-kim.html");
     $("#vicky-lai").load("partials/vicky-lai.html");
     $("#wade-foster").load("partials/wade-foster.html");
+    $("#mike-jewitt").load("partials/mike-jewitt.html");
+    $("#david-dashifen-kees").load("partials/david-dashifen-kees.html");
+    $("#levi-kennedy").load("partials/levi-kennedy.html");
     $("#claudia-reynders").load("partials/claudia-reynders.html");
     $("#katie-leigh").load("partials/katie-leigh.html");
     $("#newsletter-footer").load("partials/newsletter-footer.html");
