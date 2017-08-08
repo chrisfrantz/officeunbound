@@ -69,6 +69,28 @@ font-size: 2rem;
 #inlineFormInput {
     min-width: 250px;
     margin-right: 5px;
+    margin-bottom: 5px !important;
+}
+.btn.btn-primary.col.col-4 {
+    margin-bottom: 5px !important;
+}
+
+#iconheader {
+  background-color: white;
+  padding: 30px !important;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+}
+
+@media only screen and (min-width: 1660px) {
+    #iconheader {
+      -webkit-box-flex:0;
+        -webkit-flex:0 0 16.666667%;
+        -ms-flex:0 0 16.666667%;
+        flex:0 0 16.666667%;
+        max-width:16.666667%;
+        margin-left: 41.666667%
+    }
 }
 
 /*
