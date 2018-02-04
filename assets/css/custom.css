@@ -19,11 +19,10 @@
 
 .navbar {
   margin-bottom: 0;
-  background-color: #f6f6f6;
+  background-color: white;
   padding-top: 20px;
   padding-bottom: 20px;
   z-index: 99;
-  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.18);
 }
 }
 
@@ -40,47 +39,37 @@ font-size: 2rem;
  * Jumbotron
  */
 
+ .jumbotron {
+  background-color: #f6f6f6;
+  padding: 0px;
+ }
 
-.jumbotron {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  margin-bottom: 0;
-  background-color: white;
-  padding-top: 6rem;
-  padding-bottom: 16rem;
-
-}
-
-.jumbotron p:last-child {
-  margin-bottom: 0;
-}
-
-.jumbotron-heading {
-  font-weight: 300;
-}
-
-.jumbotron .container {
-  max-width: 40rem;
-}
-.newsletter-pad {
-  padding-top: 20px;
+#iconheader-text {
+  vertical-align: middle;
 }
 
 #inlineFormInput {
     min-width: 250px;
     margin-right: 5px;
-    margin-bottom: 5px !important;
 }
 .btn.btn-primary.col.col-4 {
     margin-bottom: 5px !important;
 }
 
 #iconheader {
-  background-color: white;
-  padding: 30px !important;
+  padding: 40px;
   border-radius: 20px;
   box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+  background-image: url(../images/brand/header.svg);
+  background-size: cover; 
+  min-height: 470PX;
+
 }
+
+#iconheader-text {
+  padding-top: 80px;
+}
+
 
 @media only screen and (min-width: 1660px) {
     #iconheader {
@@ -226,7 +215,7 @@ avatar-1 {
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  max-width: 1000px;
+  background-color: white;
 
 }
 
@@ -284,6 +273,23 @@ footer p {
   p {
     font-size: 90% !important;
   }
+
+  #nav-container{
+    margin-left: initial;
+    margin-right: initial;
+  }
+  #iconheader-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+  #iconheader {
+  padding: 20px;
+  min-height: auto;
+  }
+  #inlineFormInput {
+    min-width: auto;
+}
+
 
 }
 
