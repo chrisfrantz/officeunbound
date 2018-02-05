@@ -72,16 +72,6 @@ font-size: 2rem;
 }
 
 
-@media only screen and (min-width: 1660px) {
-    #iconheader {
-      -webkit-box-flex:0;
-        -webkit-flex:0 0 16.666667%;
-        -ms-flex:0 0 16.666667%;
-        flex:0 0 16.666667%;
-        max-width:16.666667%;
-        margin-left: 41.666667%
-    }
-}
 
 /*
  * Card Container
@@ -139,7 +129,6 @@ font-size: 2rem;
     margin-left: 0px;
 }
 
-
 .card.item:hover {
     -webkit-box-shadow:
     -6px -6px 8px -4px rgba(250,254,118,0.75),
@@ -160,7 +149,6 @@ font-size: 2rem;
     transform: scale(.98);
 
 }
-
 
 .card.item > a:hover{
   color: rgb(64, 133, 204);
